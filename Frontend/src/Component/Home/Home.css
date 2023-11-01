@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Varela+Round&display=swap');
+/* 
+font-family: 'Quicksand', sans-serif;
+font-family: 'Varela Round', sans-serif;
+ */
+
+ .body
+    {
+        background-color: white;
+    }   
+
+
+.grid
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        row-gap: 50px;
+        margin-left: 80px;
+        padding-top: 50px;
+        margin-bottom: 80px;
+        height:100%;
+        
+    }
+
+.grid img
+    {
+        width: 250px;
+        height: 350px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        
+    }
+
+.d-block
+    {
+        height: 50vh;
+        padding: 10px;
+    }
+
+.name
+    {
+        font-family: 'Quicksand', sans-serif;
+        color: white;
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+.head
+    {
+        font-family: 'Varela Round', sans-serif;
+        font-style: italic;
+        font-weight: normal;
+        text-align: center;
+        padding-top: 20px;
+        color: rgb(208, 197, 197);
+    }
+
+.img1 p
+    {
+        background-color: black;
+        inline-size: 250px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding: 10px;
+    }
+
+.search
+    {
+        margin-left: 550px;
+        padding-right: 250px;
+        outline: none ;
+        border-radius: 8px;
+    }
+
+.sbar{
+    padding-top: 20px;
+}
